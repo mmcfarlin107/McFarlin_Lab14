@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app='myModule' lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="style.css" rel='stylesheet'>
+
+  <title> Cats and Dogs </title>
+</head>
+<body>
+<div>
+
+<p>
+Do you want to see a <a href="#!/cat"> cat</a> on a computer or a <a href="#!/dog"> dog</a> on a computer?
+</p>
+
+</div>
+<ng-view></ng-view>
+
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js'>
+</script>
+<script src='https://code.angularjs.org/1.6.4/angular-route.min.js'></script>
+<script src='module.js'></script>
+<script src='config.js'></script>
+<script src='controller.js'></script>
+</body>
+</html>
